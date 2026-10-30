@@ -1,0 +1,34 @@
+path: C:\Users\bruno\Documents\Code\Tarea 2 - Deep\data\fjord
+train: images/train
+val: images/val
+test: images/test
+nc: 28
+names:
+  0: ballan
+  1: cuckoo_female
+  2: cuckoo_male
+  3: corkwing_female
+  4: corkwing_male
+  5: goldsinny
+  6: rock_cook
+  7: labrids_unknown
+  8: cod
+  9: cod_yoy
+  10: haddock
+  11: pollack
+  12: poor_cod
+  13: saithe
+  14: whiting
+  15: gadids_unknown
+  16: spiny_dogfish
+  17: sharks_unknown
+  18: brown_crab
+  19: green_crab
+  20: hermit
+  21: lobster
+  22: decapods_unknown
+  23: ling
+  24: two_spot_goby
+  25: black_goby
+  26: sand_goby
+  27: unknown

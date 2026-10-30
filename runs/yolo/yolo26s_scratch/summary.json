@@ -1,0 +1,30 @@
+{
+  "name": "yolo26s_scratch",
+  "mode": "scratch",
+  "model": "yolo26s",
+  "params": 9969536,
+  "epochs_requested": 150,
+  "epochs_run": 150,
+  "best_epoch": 135,
+  "best_fitness": 0.21643,
+  "val_map50_at_best": 0.34945,
+  "val_map50_95_at_best": 0.20165,
+  "total_time_min": 65.91058835188548,
+  "train_time_min": 65.35033333333334,
+  "args": {
+    "mode": "scratch",
+    "model": "yolo26s",
+    "name": "yolo26s_scratch",
+    "yaml": "data/fjord/data.yaml",
+    "epochs": 150,
+    "batch": 16,
+    "imgsz": 640,
+    "workers": 2,
+    "freeze": 0,
+    "patience": 100,
+    "seed": 0,
+    "plots": 1,
+    "device": null
+  },
+  "save_dir": "C:\\Users\\bruno\\Documents\\Code\\Tarea 2 - Deep\\runs\\yolo\\yolo26s_scratch"
+}

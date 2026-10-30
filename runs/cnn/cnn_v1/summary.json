@@ -1,0 +1,11 @@
+{
+  "name": "cnn_v1",
+  "params": 13131776,
+  "epochs": 100,
+  "best_epoch": 95,
+  "best_fitness": 0.1655184105038643,
+  "train_time_min": 46.7503853003184,
+  "total_time_min": 55.515815166632336,
+  "mean_epoch_s": 28.05023118019104,
+  "peak_vram_gb": 4.059554816
+}

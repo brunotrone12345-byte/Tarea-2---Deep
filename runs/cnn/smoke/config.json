@@ -1,0 +1,18 @@
+{
+  "yaml": "data/fjord/data.yaml",
+  "name": "smoke",
+  "epochs": 3,
+  "bs": 16,
+  "lr": 0.001,
+  "wd": 0.01,
+  "warmup": 2,
+  "width": 1.0,
+  "img_size": 640,
+  "workers": 2,
+  "eval_every": 1,
+  "seed": 0,
+  "out": ".",
+  "params": 13131776,
+  "n_train": 2075,
+  "n_val": 476
+}

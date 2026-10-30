@@ -1,0 +1,29 @@
+cls,clase,train,val,test,total,estado
+0,0: ballan,65,14,14,93,ok
+1,1: cuckoo_female,33,7,7,47,ok
+2,2: cuckoo_male,22,4,5,31,ok
+3,3: corkwing_female,320,67,69,456,ok
+4,4: corkwing_male,874,179,162,1215,ok
+5,5: goldsinny,979,193,261,1433,ok
+6,6: rock_cook,107,22,23,152,ok
+7,7: labrids_unknown,232,50,51,333,ok
+8,8: cod,569,117,125,811,ok
+9,9: cod_yoy,125,23,33,181,ok
+10,10: haddock,7,0,0,7,solo train (no evaluable)
+11,11: pollack,104,22,23,149,ok
+12,12: poor_cod,13,0,9,22,ok
+13,13: saithe,27,6,6,39,ok
+14,14: whiting,68,14,19,101,ok
+15,15: gadines_unknown,142,27,31,200,ok
+16,16: spiny_dogfish,455,117,112,684,ok
+17,17: sharks_unknown,0,0,0,0,sin anotaciones
+18,18: brown_crab,132,34,24,190,ok
+19,19: green_crab,30,7,1,38,ok
+20,20: hermit,8,0,7,15,ok
+21,21: lobster,1,0,0,1,solo train (no evaluable)
+22,22: decapods_unknown,5,0,0,5,solo train (no evaluable)
+23,23: ling,21,4,5,30,ok
+24,24: two_spot_goby,79,17,17,113,ok
+25,25: black_goby,1,0,0,1,solo train (no evaluable)
+26,26: sand_goby,3,0,0,3,solo train (no evaluable)
+27,27: unknown,0,0,0,0,sin anotaciones

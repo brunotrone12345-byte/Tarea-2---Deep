@@ -1,0 +1,48 @@
+{
+  "seed": 42,
+  "chunk": 25,
+  "min_ann": 10,
+  "target": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "n_classes": 28,
+  "class_names": [
+    "0: ballan",
+    "1: cuckoo_female",
+    "2: cuckoo_male",
+    "3: corkwing_female",
+    "4: corkwing_male",
+    "5: goldsinny",
+    "6: rock_cook",
+    "7: labrids_unknown",
+    "8: cod",
+    "9: cod_yoy",
+    "10: haddock",
+    "11: pollack",
+    "12: poor_cod",
+    "13: saithe",
+    "14: whiting",
+    "15: gadines_unknown",
+    "16: spiny_dogfish",
+    "17: sharks_unknown",
+    "18: brown_crab",
+    "19: green_crab",
+    "20: hermit",
+    "21: lobster",
+    "22: decapods_unknown",
+    "23: ling",
+    "24: two_spot_goby",
+    "25: black_goby",
+    "26: sand_goby",
+    "27: unknown"
+  ],
+  "rare_classes_train_only": [
+    10,
+    21,
+    22,
+    25,
+    26
+  ]
+}
