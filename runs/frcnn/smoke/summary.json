@@ -1,0 +1,12 @@
+{
+  "name": "smoke",
+  "params": 41437536,
+  "trainable_params": 41215136,
+  "epochs": 1,
+  "best_epoch": 1,
+  "best_fitness": 0.00343626132234931,
+  "train_time_min": 0.6971877098083497,
+  "total_time_min": 0.9220223585764568,
+  "mean_epoch_s": 41.83126258850098,
+  "peak_vram_gb": 3.908097536
+}

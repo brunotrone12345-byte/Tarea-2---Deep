@@ -1,0 +1,70 @@
+{
+  "yaml": "data/fjord/data.yaml",
+  "name": "frcnn_v1",
+  "epochs": 20,
+  "bs": 8,
+  "lr": 0.01,
+  "wd": 0.0001,
+  "warmup_iters": 300,
+  "trainable_layers": 3,
+  "anchors": "small",
+  "img_size": 640,
+  "workers": 2,
+  "eval_every": 2,
+  "pretrained": 1,
+  "amp": 1,
+  "max_iters": 0,
+  "limit_val": 0,
+  "seed": 0,
+  "out": ".",
+  "params": 41437536,
+  "trainable_params": 41215136,
+  "components": {
+    "backbone.body.conv1": {
+      "trainable": 0,
+      "total": 9408,
+      "state": "CONGELADO"
+    },
+    "backbone.body.layer1": {
+      "trainable": 0,
+      "total": 212992,
+      "state": "CONGELADO"
+    },
+    "backbone.body.layer2": {
+      "trainable": 1212416,
+      "total": 1212416,
+      "state": "ENTRENA"
+    },
+    "backbone.body.layer3": {
+      "trainable": 7077888,
+      "total": 7077888,
+      "state": "ENTRENA"
+    },
+    "backbone.body.layer4": {
+      "trainable": 14942208,
+      "total": 14942208,
+      "state": "ENTRENA"
+    },
+    "backbone.fpn": {
+      "trainable": 3344384,
+      "total": 3344384,
+      "state": "ENTRENA"
+    },
+    "rpn.head": {
+      "trainable": 593935,
+      "total": 593935,
+      "state": "ENTRENA"
+    },
+    "roi_heads.box_head": {
+      "trainable": 13895680,
+      "total": 13895680,
+      "state": "ENTRENA"
+    },
+    "roi_heads.box_predictor": {
+      "trainable": 148625,
+      "total": 148625,
+      "state": "ENTRENA"
+    }
+  },
+  "n_train": 2075
+}
