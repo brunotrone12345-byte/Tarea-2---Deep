@@ -22,11 +22,12 @@ from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
 from cnndet.data import augment_hsv   # mismo cambio de color que usamos en la CNN propia
 
 
+from detkit.paths import resolve_dataset_cfg
+
+
 def load_cfg(yaml_path):
-    cfg = yaml.safe_load(open(yaml_path, encoding="utf-8"))
-    names = cfg["names"]
-    names = [names[k] for k in sorted(names)] if isinstance(names, dict) else list(names)
-    return Path(cfg["path"]), names
+    root, names, _ = resolve_dataset_cfg(yaml_path)
+    return root, names
 
 
 class FjordFRCNN(Dataset):

@@ -1,0 +1,33 @@
+modelo,especie_real,especie_predicha,casos
+CNN propia,labrids_unknown,goldsinny,14
+CNN propia,corkwing_female,goldsinny,9
+CNN propia,goldsinny,corkwing_female,7
+CNN propia,cod,cod_yoy,7
+CNN propia,cod_yoy,goldsinny,7
+CNN propia,goldsinny,cod_yoy,7
+CNN propia,cod_yoy,cod,5
+CNN propia,gadids_unknown,goldsinny,5
+YOLO26s desde cero,corkwing_female,goldsinny,8
+YOLO26s desde cero,labrids_unknown,goldsinny,8
+YOLO26s desde cero,goldsinny,cod_yoy,7
+YOLO26s desde cero,cod,saithe,7
+YOLO26s desde cero,goldsinny,corkwing_female,5
+YOLO26s desde cero,cod_yoy,goldsinny,5
+YOLO26s desde cero,whiting,cod,5
+YOLO26s desde cero,cod,goldsinny,4
+YOLO26s transfer,labrids_unknown,goldsinny,9
+YOLO26s transfer,goldsinny,corkwing_female,7
+YOLO26s transfer,whiting,cod,7
+YOLO26s transfer,cod_yoy,goldsinny,5
+YOLO26s transfer,corkwing_female,ballan,5
+YOLO26s transfer,corkwing_female,corkwing_male,4
+YOLO26s transfer,corkwing_female,goldsinny,4
+YOLO26s transfer,labrids_unknown,corkwing_female,4
+Faster R-CNN transfer,corkwing_female,goldsinny,13
+Faster R-CNN transfer,goldsinny,corkwing_female,11
+Faster R-CNN transfer,labrids_unknown,goldsinny,10
+Faster R-CNN transfer,corkwing_female,corkwing_male,8
+Faster R-CNN transfer,goldsinny,labrids_unknown,8
+Faster R-CNN transfer,rock_cook,goldsinny,6
+Faster R-CNN transfer,cod_yoy,goldsinny,6
+Faster R-CNN transfer,rock_cook,labrids_unknown,5

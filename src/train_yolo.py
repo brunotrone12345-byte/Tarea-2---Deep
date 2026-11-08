@@ -36,11 +36,13 @@ def main():
     ap.add_argument("--device", default=None)
     args = ap.parse_args()
 
+    from detkit.paths import write_resolved_yaml
     name = args.name or f"{args.model}_{args.mode}"
     project = Path("runs/yolo").resolve()      # ruta ABSOLUTA: evita que Ultralytics anide carpetas
+    resolved_yaml = write_resolved_yaml(args.yaml, project / name / "data_resolved.yaml")
     weights = f"{args.model}.yaml" if args.mode == "scratch" else f"{args.model}.pt"
     model = YOLO(weights)
-    kw = dict(data=str(Path(args.yaml).resolve()), epochs=args.epochs, batch=args.batch, imgsz=args.imgsz,
+    kw = dict(data=str(resolved_yaml), epochs=args.epochs, batch=args.batch, imgsz=args.imgsz,
               workers=args.workers, project=str(project), name=name, exist_ok=True, seed=args.seed,
               patience=args.patience, plots=bool(args.plots), device=args.device)
     if args.mode == "scratch":

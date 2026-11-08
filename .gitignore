@@ -1,3 +1,9 @@
 __pycache__/
 *.pyc 
 /data/raw/
+
+# Archivos excluidos a solicitud del usuario
+docs/FICHA_DATOS_PRESENTACION.md
+docs/DECLARACION_IA_PLANTILLA.md
+notebooks/Etapa7_Colab_YOLO26s_TL_y_Degradacion.ipynb
+src/analyze_stage6_extra.py

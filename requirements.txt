@@ -1,0 +1,15 @@
+# Dependencias del proyecto - Tarea 2 CIT3360 Deep Learning (UDP 2026-2)
+# Python recomendado: 3.10 - 3.12 (compatible con Windows, Linux y Google Colab)
+torch>=2.2.0
+torchvision>=0.17.0
+ultralytics>=8.3.0
+torchmetrics>=1.4.0
+pycocotools>=2.0.7
+opencv-python>=4.9.0
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+scipy>=1.11.0
+PyYAML>=6.0
+Pillow>=10.0.0
+tqdm>=4.66.0

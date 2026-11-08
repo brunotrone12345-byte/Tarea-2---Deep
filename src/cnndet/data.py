@@ -26,11 +26,12 @@ STRIDE = 4      # la salida de la red es 4 veces más pequeña que la entrada
 MAX_OBJ = 64    # el máximo real en el dataset es 27 cajas por imagen
 
 
+from detkit.paths import resolve_dataset_cfg
+
+
 def load_data_cfg(yaml_path):
-    cfg = yaml.safe_load(open(yaml_path, encoding="utf-8"))
-    names = cfg["names"]
-    names = [names[k] for k in sorted(names)] if isinstance(names, dict) else list(names)
-    return Path(cfg["path"]), names
+    root, names, _ = resolve_dataset_cfg(yaml_path)
+    return root, names
 
 
 def augment_hsv(img, hgain=0.015, sgain=0.6, vgain=0.4):
