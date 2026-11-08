@@ -1,4 +1,4 @@
-path: C:\Users\bruno\Documents\Code\Tarea 2 - Deep\data\fjord
+path: data/fjord
 train: images/train
 val: images/val
 test: images/test

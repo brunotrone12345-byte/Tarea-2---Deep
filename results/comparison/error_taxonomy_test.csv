@@ -1,0 +1,5 @@
+modelo,umbral_val,total_predicciones,TP_correcto,FP_total,FP_confusion_especie,FP_mala_localizacion,FP_loc_y_especie,FP_duplicado,FP_fondo,FN_no_detectado,pct_FP_especie,pct_FP_localizacion,pct_FP_fondo
+CNN propia,0.3,760,459,301,142,29,9,1,120,545,47.18,9.63,39.87
+YOLO26s desde cero,0.3,707,463,244,112,34,14,10,74,541,45.9,13.93,30.33
+YOLO26s transfer,0.3,865,623,242,113,24,10,10,85,381,46.69,9.92,35.12
+Faster R-CNN transfer,0.35,989,585,404,207,34,19,5,139,419,51.24,8.42,34.41

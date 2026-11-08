@@ -61,9 +61,8 @@ def main():
 
     run = out / "runs" / "yolo" / args.name
     model = YOLO(run / "weights" / "best.pt")
-    cfg = yaml.safe_load(open(args.yaml, encoding="utf-8"))
-    root = Path(cfg["path"])
-    names = [cfg["names"][k] for k in sorted(cfg["names"])] if isinstance(cfg["names"], dict) else cfg["names"]
+    from detkit.paths import resolve_dataset_cfg
+    root, names, _ = resolve_dataset_cfg(args.yaml)
 
     def files_of(split):
         return sorted((root / "images" / split).glob("*.jpg")), root / "labels" / split

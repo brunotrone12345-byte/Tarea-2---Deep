@@ -1,0 +1,21 @@
+{
+  "tag": "yolo26s_tl_full_test",
+  "n_images": 451,
+  "n_objects": 1004,
+  "n_classes_evaluated": 21,
+  "conf_threshold": 0.3,
+  "map50": 0.4038560390472412,
+  "map50_95": 0.3070584535598755,
+  "map75": 0.33476197719573975,
+  "precision": 0.42483287892593957,
+  "recall": 0.37384159843072456,
+  "f1": 0.3977094724479981,
+  "micro_precision": 0.7202312138728324,
+  "micro_recall": 0.6205179282868526,
+  "model": "yolo26s_tl_full",
+  "params_M": 9.969536,
+  "train_time_min": 22.61516656478246,
+  "best_epoch": 37,
+  "inference_ms_per_image": 16.07174499935354,
+  "fps": 62.22099716242532
+}

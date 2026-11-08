@@ -1,0 +1,10 @@
+comparacion,metrica,diferencia_puntual,ic95_inf,ic95_sup,prob_yolo_tl_menor_o_igual
+YOLO26s transfer - CNN propia,map50,0.1455,0.1035,0.1968,0.0
+YOLO26s transfer - CNN propia,map50_95,0.1826,0.1504,0.2301,0.0
+YOLO26s transfer - CNN propia,f1,0.1682,0.1312,0.2152,0.0
+YOLO26s transfer - YOLO26s desde cero,map50,0.1195,0.0755,0.1677,0.0
+YOLO26s transfer - YOLO26s desde cero,map50_95,0.1425,0.1073,0.1836,0.0
+YOLO26s transfer - YOLO26s desde cero,f1,0.0982,0.0618,0.1432,0.0
+YOLO26s transfer - Faster R-CNN transfer,map50,0.031,-0.0266,0.078,0.178
+YOLO26s transfer - Faster R-CNN transfer,map50_95,0.0792,0.0333,0.1148,0.001
+YOLO26s transfer - Faster R-CNN transfer,f1,0.0396,-0.0077,0.0841,0.05
