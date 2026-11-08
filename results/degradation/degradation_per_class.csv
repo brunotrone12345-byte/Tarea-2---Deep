@@ -1,0 +1,274 @@
+condition,family,level,clase,n_gt,ap50,ap50_95
+clean,Sin degradación,0,ballan,14,0.5834,0.2327
+clean,Sin degradación,0,cuckoo_female,7,0.0,0.0
+clean,Sin degradación,0,cuckoo_male,5,0.0,0.0
+clean,Sin degradación,0,corkwing_female,69,0.6429,0.4948
+clean,Sin degradación,0,corkwing_male,162,0.9188,0.7295
+clean,Sin degradación,0,goldsinny,261,0.5902,0.3964
+clean,Sin degradación,0,rock_cook,23,0.7016,0.6012
+clean,Sin degradación,0,labrids_unknown,51,0.1903,0.1206
+clean,Sin degradación,0,cod,125,0.8042,0.6374
+clean,Sin degradación,0,cod_yoy,33,0.3524,0.159
+clean,Sin degradación,0,pollack,23,0.5004,0.4014
+clean,Sin degradación,0,poor_cod,9,0.6208,0.3722
+clean,Sin degradación,0,saithe,6,0.3217,0.2519
+clean,Sin degradación,0,whiting,19,0.3276,0.2322
+clean,Sin degradación,0,gadids_unknown,31,0.6592,0.4949
+clean,Sin degradación,0,spiny_dogfish,112,0.93,0.7057
+clean,Sin degradación,0,brown_crab,24,0.405,0.2084
+clean,Sin degradación,0,green_crab,1,0.0,0.0
+clean,Sin degradación,0,hermit,7,0.0,0.0
+clean,Sin degradación,0,ling,5,0.1436,0.1015
+clean,Sin degradación,0,two_spot_goby,17,0.3835,0.2865
+low_light_1,Baja iluminación,1,ballan,14,0.4892,0.1551
+low_light_1,Baja iluminación,1,cuckoo_female,7,0.0,0.0
+low_light_1,Baja iluminación,1,cuckoo_male,5,0.0,0.0
+low_light_1,Baja iluminación,1,corkwing_female,69,0.5931,0.4566
+low_light_1,Baja iluminación,1,corkwing_male,162,0.8797,0.692
+low_light_1,Baja iluminación,1,goldsinny,261,0.5161,0.3403
+low_light_1,Baja iluminación,1,rock_cook,23,0.7559,0.6654
+low_light_1,Baja iluminación,1,labrids_unknown,51,0.1716,0.1051
+low_light_1,Baja iluminación,1,cod,125,0.7952,0.6085
+low_light_1,Baja iluminación,1,cod_yoy,33,0.2638,0.1452
+low_light_1,Baja iluminación,1,pollack,23,0.4304,0.3559
+low_light_1,Baja iluminación,1,poor_cod,9,0.5594,0.3245
+low_light_1,Baja iluminación,1,saithe,6,0.1757,0.1629
+low_light_1,Baja iluminación,1,whiting,19,0.3147,0.1891
+low_light_1,Baja iluminación,1,gadids_unknown,31,0.6819,0.534
+low_light_1,Baja iluminación,1,spiny_dogfish,112,0.9357,0.711
+low_light_1,Baja iluminación,1,brown_crab,24,0.331,0.1631
+low_light_1,Baja iluminación,1,green_crab,1,0.0,0.0
+low_light_1,Baja iluminación,1,hermit,7,0.0,0.0
+low_light_1,Baja iluminación,1,ling,5,0.0347,0.0208
+low_light_1,Baja iluminación,1,two_spot_goby,17,0.4227,0.3111
+low_light_2,Baja iluminación,2,ballan,14,0.3472,0.0559
+low_light_2,Baja iluminación,2,cuckoo_female,7,0.0,0.0
+low_light_2,Baja iluminación,2,cuckoo_male,5,0.0,0.0
+low_light_2,Baja iluminación,2,corkwing_female,69,0.4938,0.3817
+low_light_2,Baja iluminación,2,corkwing_male,162,0.7957,0.6056
+low_light_2,Baja iluminación,2,goldsinny,261,0.4205,0.2799
+low_light_2,Baja iluminación,2,rock_cook,23,0.5854,0.4813
+low_light_2,Baja iluminación,2,labrids_unknown,51,0.1585,0.1019
+low_light_2,Baja iluminación,2,cod,125,0.7672,0.5663
+low_light_2,Baja iluminación,2,cod_yoy,33,0.2217,0.1031
+low_light_2,Baja iluminación,2,pollack,23,0.348,0.2542
+low_light_2,Baja iluminación,2,poor_cod,9,0.5392,0.2801
+low_light_2,Baja iluminación,2,saithe,6,0.1791,0.16
+low_light_2,Baja iluminación,2,whiting,19,0.1337,0.0574
+low_light_2,Baja iluminación,2,gadids_unknown,31,0.7126,0.5118
+low_light_2,Baja iluminación,2,spiny_dogfish,112,0.92,0.7081
+low_light_2,Baja iluminación,2,brown_crab,24,0.2045,0.1353
+low_light_2,Baja iluminación,2,green_crab,1,0.0,0.0
+low_light_2,Baja iluminación,2,hermit,7,0.0,0.0
+low_light_2,Baja iluminación,2,ling,5,0.013,0.0091
+low_light_2,Baja iluminación,2,two_spot_goby,17,0.4028,0.311
+low_light_3,Baja iluminación,3,ballan,14,0.1785,0.0319
+low_light_3,Baja iluminación,3,cuckoo_female,7,0.0022,0.0009
+low_light_3,Baja iluminación,3,cuckoo_male,5,0.0,0.0
+low_light_3,Baja iluminación,3,corkwing_female,69,0.3378,0.2526
+low_light_3,Baja iluminación,3,corkwing_male,162,0.6125,0.4584
+low_light_3,Baja iluminación,3,goldsinny,261,0.3354,0.2219
+low_light_3,Baja iluminación,3,rock_cook,23,0.4545,0.3406
+low_light_3,Baja iluminación,3,labrids_unknown,51,0.1407,0.0796
+low_light_3,Baja iluminación,3,cod,125,0.6549,0.4639
+low_light_3,Baja iluminación,3,cod_yoy,33,0.1596,0.0877
+low_light_3,Baja iluminación,3,pollack,23,0.1662,0.1287
+low_light_3,Baja iluminación,3,poor_cod,9,0.3635,0.1939
+low_light_3,Baja iluminación,3,saithe,6,0.2916,0.2566
+low_light_3,Baja iluminación,3,whiting,19,0.0679,0.0387
+low_light_3,Baja iluminación,3,gadids_unknown,31,0.6497,0.4701
+low_light_3,Baja iluminación,3,spiny_dogfish,112,0.9,0.6855
+low_light_3,Baja iluminación,3,brown_crab,24,0.1395,0.0864
+low_light_3,Baja iluminación,3,green_crab,1,0.0,0.0
+low_light_3,Baja iluminación,3,hermit,7,0.0,0.0
+low_light_3,Baja iluminación,3,ling,5,0.0047,0.0028
+low_light_3,Baja iluminación,3,two_spot_goby,17,0.2573,0.1866
+blur_1,Desenfoque gaussiano,1,ballan,14,0.5986,0.201
+blur_1,Desenfoque gaussiano,1,cuckoo_female,7,0.0,0.0
+blur_1,Desenfoque gaussiano,1,cuckoo_male,5,0.0,0.0
+blur_1,Desenfoque gaussiano,1,corkwing_female,69,0.6192,0.4816
+blur_1,Desenfoque gaussiano,1,corkwing_male,162,0.8675,0.6915
+blur_1,Desenfoque gaussiano,1,goldsinny,261,0.4641,0.3179
+blur_1,Desenfoque gaussiano,1,rock_cook,23,0.713,0.6083
+blur_1,Desenfoque gaussiano,1,labrids_unknown,51,0.1307,0.0871
+blur_1,Desenfoque gaussiano,1,cod,125,0.7327,0.5672
+blur_1,Desenfoque gaussiano,1,cod_yoy,33,0.3048,0.1389
+blur_1,Desenfoque gaussiano,1,pollack,23,0.5366,0.4166
+blur_1,Desenfoque gaussiano,1,poor_cod,9,0.598,0.3854
+blur_1,Desenfoque gaussiano,1,saithe,6,0.2802,0.2115
+blur_1,Desenfoque gaussiano,1,whiting,19,0.4794,0.2475
+blur_1,Desenfoque gaussiano,1,gadids_unknown,31,0.6094,0.4469
+blur_1,Desenfoque gaussiano,1,spiny_dogfish,112,0.9097,0.6896
+blur_1,Desenfoque gaussiano,1,brown_crab,24,0.3384,0.2079
+blur_1,Desenfoque gaussiano,1,green_crab,1,0.0,0.0
+blur_1,Desenfoque gaussiano,1,hermit,7,0.0,0.0
+blur_1,Desenfoque gaussiano,1,ling,5,0.0812,0.0498
+blur_1,Desenfoque gaussiano,1,two_spot_goby,17,0.3131,0.2058
+blur_2,Desenfoque gaussiano,2,ballan,14,0.4281,0.1067
+blur_2,Desenfoque gaussiano,2,cuckoo_female,7,0.0,0.0
+blur_2,Desenfoque gaussiano,2,cuckoo_male,5,0.0,0.0
+blur_2,Desenfoque gaussiano,2,corkwing_female,69,0.5672,0.4163
+blur_2,Desenfoque gaussiano,2,corkwing_male,162,0.843,0.6421
+blur_2,Desenfoque gaussiano,2,goldsinny,261,0.3341,0.2199
+blur_2,Desenfoque gaussiano,2,rock_cook,23,0.6581,0.5119
+blur_2,Desenfoque gaussiano,2,labrids_unknown,51,0.0796,0.0477
+blur_2,Desenfoque gaussiano,2,cod,125,0.651,0.4469
+blur_2,Desenfoque gaussiano,2,cod_yoy,33,0.2444,0.1318
+blur_2,Desenfoque gaussiano,2,pollack,23,0.4793,0.3458
+blur_2,Desenfoque gaussiano,2,poor_cod,9,0.6379,0.3774
+blur_2,Desenfoque gaussiano,2,saithe,6,0.2712,0.2495
+blur_2,Desenfoque gaussiano,2,whiting,19,0.1987,0.083
+blur_2,Desenfoque gaussiano,2,gadids_unknown,31,0.5194,0.3419
+blur_2,Desenfoque gaussiano,2,spiny_dogfish,112,0.841,0.6216
+blur_2,Desenfoque gaussiano,2,brown_crab,24,0.3278,0.186
+blur_2,Desenfoque gaussiano,2,green_crab,1,0.0,0.0
+blur_2,Desenfoque gaussiano,2,hermit,7,0.0,0.0
+blur_2,Desenfoque gaussiano,2,ling,5,0.0767,0.0295
+blur_2,Desenfoque gaussiano,2,two_spot_goby,17,0.298,0.1632
+blur_3,Desenfoque gaussiano,3,ballan,14,0.2833,0.047
+blur_3,Desenfoque gaussiano,3,cuckoo_female,7,0.0,0.0
+blur_3,Desenfoque gaussiano,3,cuckoo_male,5,0.0,0.0
+blur_3,Desenfoque gaussiano,3,corkwing_female,69,0.4492,0.3021
+blur_3,Desenfoque gaussiano,3,corkwing_male,162,0.7538,0.5425
+blur_3,Desenfoque gaussiano,3,goldsinny,261,0.2199,0.1291
+blur_3,Desenfoque gaussiano,3,rock_cook,23,0.6364,0.4599
+blur_3,Desenfoque gaussiano,3,labrids_unknown,51,0.0286,0.0153
+blur_3,Desenfoque gaussiano,3,cod,125,0.5129,0.3353
+blur_3,Desenfoque gaussiano,3,cod_yoy,33,0.112,0.0529
+blur_3,Desenfoque gaussiano,3,pollack,23,0.3429,0.2735
+blur_3,Desenfoque gaussiano,3,poor_cod,9,0.1254,0.0782
+blur_3,Desenfoque gaussiano,3,saithe,6,0.2953,0.2879
+blur_3,Desenfoque gaussiano,3,whiting,19,0.1059,0.0329
+blur_3,Desenfoque gaussiano,3,gadids_unknown,31,0.3922,0.2224
+blur_3,Desenfoque gaussiano,3,spiny_dogfish,112,0.7644,0.5434
+blur_3,Desenfoque gaussiano,3,brown_crab,24,0.2463,0.139
+blur_3,Desenfoque gaussiano,3,green_crab,1,0.0,0.0
+blur_3,Desenfoque gaussiano,3,hermit,7,0.0,0.0
+blur_3,Desenfoque gaussiano,3,ling,5,0.0,0.0
+blur_3,Desenfoque gaussiano,3,two_spot_goby,17,0.2436,0.1079
+noise_1,Ruido gaussiano,1,ballan,14,0.1326,0.051
+noise_1,Ruido gaussiano,1,cuckoo_female,7,0.0,0.0
+noise_1,Ruido gaussiano,1,cuckoo_male,5,0.0,0.0
+noise_1,Ruido gaussiano,1,corkwing_female,69,0.3014,0.2314
+noise_1,Ruido gaussiano,1,corkwing_male,162,0.7728,0.5901
+noise_1,Ruido gaussiano,1,goldsinny,261,0.2052,0.1219
+noise_1,Ruido gaussiano,1,rock_cook,23,0.5239,0.4189
+noise_1,Ruido gaussiano,1,labrids_unknown,51,0.0315,0.0211
+noise_1,Ruido gaussiano,1,cod,125,0.4061,0.265
+noise_1,Ruido gaussiano,1,cod_yoy,33,0.1427,0.0668
+noise_1,Ruido gaussiano,1,pollack,23,0.3819,0.2896
+noise_1,Ruido gaussiano,1,poor_cod,9,0.0651,0.0342
+noise_1,Ruido gaussiano,1,saithe,6,0.1894,0.1297
+noise_1,Ruido gaussiano,1,whiting,19,0.18,0.0992
+noise_1,Ruido gaussiano,1,gadids_unknown,31,0.0641,0.0252
+noise_1,Ruido gaussiano,1,spiny_dogfish,112,0.383,0.2178
+noise_1,Ruido gaussiano,1,brown_crab,24,0.0998,0.052
+noise_1,Ruido gaussiano,1,green_crab,1,0.0,0.0
+noise_1,Ruido gaussiano,1,hermit,7,0.0,0.0
+noise_1,Ruido gaussiano,1,ling,5,0.0043,0.0035
+noise_1,Ruido gaussiano,1,two_spot_goby,17,0.0844,0.0594
+noise_2,Ruido gaussiano,2,ballan,14,0.0357,0.0171
+noise_2,Ruido gaussiano,2,cuckoo_female,7,0.0,0.0
+noise_2,Ruido gaussiano,2,cuckoo_male,5,0.0,0.0
+noise_2,Ruido gaussiano,2,corkwing_female,69,0.0207,0.0166
+noise_2,Ruido gaussiano,2,corkwing_male,162,0.2695,0.1635
+noise_2,Ruido gaussiano,2,goldsinny,261,0.0303,0.0197
+noise_2,Ruido gaussiano,2,rock_cook,23,0.0918,0.0623
+noise_2,Ruido gaussiano,2,labrids_unknown,51,0.0017,0.001
+noise_2,Ruido gaussiano,2,cod,125,0.0767,0.0561
+noise_2,Ruido gaussiano,2,cod_yoy,33,0.091,0.0506
+noise_2,Ruido gaussiano,2,pollack,23,0.027,0.0182
+noise_2,Ruido gaussiano,2,poor_cod,9,0.0594,0.0475
+noise_2,Ruido gaussiano,2,saithe,6,0.0,0.0
+noise_2,Ruido gaussiano,2,whiting,19,0.0,0.0
+noise_2,Ruido gaussiano,2,gadids_unknown,31,0.0,0.0
+noise_2,Ruido gaussiano,2,spiny_dogfish,112,0.0245,0.0066
+noise_2,Ruido gaussiano,2,brown_crab,24,0.0073,0.0047
+noise_2,Ruido gaussiano,2,green_crab,1,0.0,0.0
+noise_2,Ruido gaussiano,2,hermit,7,0.0,0.0
+noise_2,Ruido gaussiano,2,ling,5,0.0,0.0
+noise_2,Ruido gaussiano,2,two_spot_goby,17,0.0008,0.0005
+noise_3,Ruido gaussiano,3,ballan,14,0.0413,0.032
+noise_3,Ruido gaussiano,3,cuckoo_female,7,0.0,0.0
+noise_3,Ruido gaussiano,3,cuckoo_male,5,0.0,0.0
+noise_3,Ruido gaussiano,3,corkwing_female,69,0.0,0.0
+noise_3,Ruido gaussiano,3,corkwing_male,162,0.0382,0.0271
+noise_3,Ruido gaussiano,3,goldsinny,261,0.0029,0.0021
+noise_3,Ruido gaussiano,3,rock_cook,23,0.0261,0.0135
+noise_3,Ruido gaussiano,3,labrids_unknown,51,0.0,0.0
+noise_3,Ruido gaussiano,3,cod,125,0.0072,0.0021
+noise_3,Ruido gaussiano,3,cod_yoy,33,0.0481,0.0048
+noise_3,Ruido gaussiano,3,pollack,23,0.0495,0.0198
+noise_3,Ruido gaussiano,3,poor_cod,9,0.0,0.0
+noise_3,Ruido gaussiano,3,saithe,6,0.0,0.0
+noise_3,Ruido gaussiano,3,whiting,19,0.0,0.0
+noise_3,Ruido gaussiano,3,gadids_unknown,31,0.0,0.0
+noise_3,Ruido gaussiano,3,spiny_dogfish,112,0.0019,0.0005
+noise_3,Ruido gaussiano,3,brown_crab,24,0.0,0.0
+noise_3,Ruido gaussiano,3,green_crab,1,0.0,0.0
+noise_3,Ruido gaussiano,3,hermit,7,0.0,0.0
+noise_3,Ruido gaussiano,3,ling,5,0.0,0.0
+noise_3,Ruido gaussiano,3,two_spot_goby,17,0.0,0.0
+turbidity_1,Bajo contraste / turbidez,1,ballan,14,0.5233,0.1951
+turbidity_1,Bajo contraste / turbidez,1,cuckoo_female,7,0.0,0.0
+turbidity_1,Bajo contraste / turbidez,1,cuckoo_male,5,0.0,0.0
+turbidity_1,Bajo contraste / turbidez,1,corkwing_female,69,0.5876,0.456
+turbidity_1,Bajo contraste / turbidez,1,corkwing_male,162,0.9124,0.7199
+turbidity_1,Bajo contraste / turbidez,1,goldsinny,261,0.5834,0.3991
+turbidity_1,Bajo contraste / turbidez,1,rock_cook,23,0.6747,0.5741
+turbidity_1,Bajo contraste / turbidez,1,labrids_unknown,51,0.1649,0.1136
+turbidity_1,Bajo contraste / turbidez,1,cod,125,0.805,0.6221
+turbidity_1,Bajo contraste / turbidez,1,cod_yoy,33,0.2947,0.1385
+turbidity_1,Bajo contraste / turbidez,1,pollack,23,0.5241,0.4135
+turbidity_1,Bajo contraste / turbidez,1,poor_cod,9,0.5033,0.2819
+turbidity_1,Bajo contraste / turbidez,1,saithe,6,0.3768,0.37
+turbidity_1,Bajo contraste / turbidez,1,whiting,19,0.3955,0.307
+turbidity_1,Bajo contraste / turbidez,1,gadids_unknown,31,0.6057,0.4225
+turbidity_1,Bajo contraste / turbidez,1,spiny_dogfish,112,0.9154,0.6799
+turbidity_1,Bajo contraste / turbidez,1,brown_crab,24,0.2367,0.1211
+turbidity_1,Bajo contraste / turbidez,1,green_crab,1,0.0,0.0
+turbidity_1,Bajo contraste / turbidez,1,hermit,7,0.0,0.0
+turbidity_1,Bajo contraste / turbidez,1,ling,5,0.0693,0.0693
+turbidity_1,Bajo contraste / turbidez,1,two_spot_goby,17,0.3489,0.292
+turbidity_2,Bajo contraste / turbidez,2,ballan,14,0.4106,0.1116
+turbidity_2,Bajo contraste / turbidez,2,cuckoo_female,7,0.0,0.0
+turbidity_2,Bajo contraste / turbidez,2,cuckoo_male,5,0.0,0.0
+turbidity_2,Bajo contraste / turbidez,2,corkwing_female,69,0.5362,0.4101
+turbidity_2,Bajo contraste / turbidez,2,corkwing_male,162,0.8607,0.6557
+turbidity_2,Bajo contraste / turbidez,2,goldsinny,261,0.5011,0.3352
+turbidity_2,Bajo contraste / turbidez,2,rock_cook,23,0.5989,0.4894
+turbidity_2,Bajo contraste / turbidez,2,labrids_unknown,51,0.1314,0.0931
+turbidity_2,Bajo contraste / turbidez,2,cod,125,0.7547,0.5673
+turbidity_2,Bajo contraste / turbidez,2,cod_yoy,33,0.1925,0.0881
+turbidity_2,Bajo contraste / turbidez,2,pollack,23,0.5517,0.4228
+turbidity_2,Bajo contraste / turbidez,2,poor_cod,9,0.5565,0.3354
+turbidity_2,Bajo contraste / turbidez,2,saithe,6,0.2508,0.2466
+turbidity_2,Bajo contraste / turbidez,2,whiting,19,0.3873,0.306
+turbidity_2,Bajo contraste / turbidez,2,gadids_unknown,31,0.486,0.2852
+turbidity_2,Bajo contraste / turbidez,2,spiny_dogfish,112,0.8887,0.6415
+turbidity_2,Bajo contraste / turbidez,2,brown_crab,24,0.13,0.0513
+turbidity_2,Bajo contraste / turbidez,2,green_crab,1,0.0,0.0
+turbidity_2,Bajo contraste / turbidez,2,hermit,7,0.0,0.0
+turbidity_2,Bajo contraste / turbidez,2,ling,5,0.0439,0.0256
+turbidity_2,Bajo contraste / turbidez,2,two_spot_goby,17,0.3171,0.2766
+turbidity_3,Bajo contraste / turbidez,3,ballan,14,0.2917,0.0532
+turbidity_3,Bajo contraste / turbidez,3,cuckoo_female,7,0.0,0.0
+turbidity_3,Bajo contraste / turbidez,3,cuckoo_male,5,0.0029,0.0009
+turbidity_3,Bajo contraste / turbidez,3,corkwing_female,69,0.2957,0.2167
+turbidity_3,Bajo contraste / turbidez,3,corkwing_male,162,0.6476,0.4872
+turbidity_3,Bajo contraste / turbidez,3,goldsinny,261,0.2935,0.1882
+turbidity_3,Bajo contraste / turbidez,3,rock_cook,23,0.3232,0.2413
+turbidity_3,Bajo contraste / turbidez,3,labrids_unknown,51,0.0391,0.0258
+turbidity_3,Bajo contraste / turbidez,3,cod,125,0.5676,0.3878
+turbidity_3,Bajo contraste / turbidez,3,cod_yoy,33,0.0889,0.0293
+turbidity_3,Bajo contraste / turbidez,3,pollack,23,0.5043,0.3778
+turbidity_3,Bajo contraste / turbidez,3,poor_cod,9,0.5049,0.2784
+turbidity_3,Bajo contraste / turbidez,3,saithe,6,0.3396,0.3224
+turbidity_3,Bajo contraste / turbidez,3,whiting,19,0.4342,0.3469
+turbidity_3,Bajo contraste / turbidez,3,gadids_unknown,31,0.0744,0.0307
+turbidity_3,Bajo contraste / turbidez,3,spiny_dogfish,112,0.7128,0.4875
+turbidity_3,Bajo contraste / turbidez,3,brown_crab,24,0.0748,0.0207
+turbidity_3,Bajo contraste / turbidez,3,green_crab,1,0.0,0.0
+turbidity_3,Bajo contraste / turbidez,3,hermit,7,0.0,0.0
+turbidity_3,Bajo contraste / turbidez,3,ling,5,0.0452,0.0098
+turbidity_3,Bajo contraste / turbidez,3,two_spot_goby,17,0.2066,0.1954
