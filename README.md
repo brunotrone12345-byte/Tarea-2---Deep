@@ -137,7 +137,3 @@ python src/eval_degradation.py \
 Si no se cuenta con GPU local o con el archivo `runs/yolo/yolo26s_tl_full/weights/best.pt`, abrir y ejecutar de principio a fin el cuaderno **`notebooks/Etapa7_Colab_YOLO26s_TL_y_Degradacion.ipynb`** en Google Colab (`Entorno de ejecución -> Cambiar tipo de entorno -> GPU T4`).
 
 ---
-
-## Declaración de Uso de Herramientas de IA
-
-Consultar y completar con los datos de los integrantes la plantilla incluida en [`docs/DECLARACION_IA_PLANTILLA.md`](docs/DECLARACION_IA_PLANTILLA.md) para incorporarla en las diapositivas de entrega.
