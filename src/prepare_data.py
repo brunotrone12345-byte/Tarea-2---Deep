@@ -71,7 +71,7 @@ def main():
     names = cfg["names"]
     names = [names[k] for k in sorted(names)] if isinstance(names, dict) else list(names)
     names = [NAME_FIX.get(n, n) for n in (re.sub(r"^\d+\s*:\s*", "", str(n)).strip() for n in names)]
-    data = {"path": "data/fjord", "train": "images/train", "val": "images/val",
+    data = {"path": str(dst_root.resolve()), "train": "images/train", "val": "images/val",
             "test": "images/test", "nc": len(names), "names": {i: n for i, n in enumerate(names)}}
     with open(dst_root / "data.yaml", "w", encoding="utf-8") as f:
         yaml.safe_dump(data, f, sort_keys=False, allow_unicode=True)
