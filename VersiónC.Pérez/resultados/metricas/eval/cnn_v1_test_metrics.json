@@ -1,0 +1,21 @@
+{
+  "tag": "cnn_v1_test",
+  "n_images": 451,
+  "n_objects": 1004,
+  "n_classes_evaluated": 21,
+  "conf_threshold": 0.3,
+  "map50": 0.2592960298061371,
+  "map50_95": 0.12473417818546295,
+  "map75": 0.09873046725988388,
+  "precision": 0.260784763003305,
+  "recall": 0.1975829975262093,
+  "f1": 0.22482661138222562,
+  "micro_precision": 0.603448275862069,
+  "micro_recall": 0.4531872509960159,
+  "model": "cnn_v1",
+  "params_M": 13.131776,
+  "train_time_min": 46.7503853003184,
+  "best_epoch": 95,
+  "inference_ms_per_image": 22.71617889404297,
+  "fps": 44.02148815011478
+}

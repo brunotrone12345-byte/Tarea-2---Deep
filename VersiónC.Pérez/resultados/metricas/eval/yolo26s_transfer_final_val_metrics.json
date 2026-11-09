@@ -1,0 +1,21 @@
+{
+  "tag": "yolo26s_transfer_final_val",
+  "n_images": 476,
+  "n_objects": 924,
+  "n_classes_evaluated": 19,
+  "conf_threshold": 0.3,
+  "map50": 0.41056644916534424,
+  "map50_95": 0.2907679080963135,
+  "map75": 0.3032205104827881,
+  "precision": 0.4412062370282474,
+  "recall": 0.38331803086700067,
+  "f1": 0.4102300261352481,
+  "micro_precision": 0.6638036809815951,
+  "micro_recall": 0.5854978354978355,
+  "model": "yolo26s_transfer_final",
+  "params_M": 9.969536,
+  "train_time_min": 156.38432832161587,
+  "best_epoch": 49,
+  "inference_ms_per_image": 13.700731000280939,
+  "fps": 72.98880621621537
+}

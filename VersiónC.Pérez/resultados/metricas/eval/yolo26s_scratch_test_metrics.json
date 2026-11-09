@@ -1,0 +1,21 @@
+{
+  "tag": "yolo26s_scratch_test",
+  "n_images": 451,
+  "n_objects": 1004,
+  "n_classes_evaluated": 21,
+  "conf_threshold": 0.3,
+  "map50": 0.28104814887046814,
+  "map50_95": 0.16108378767967224,
+  "map75": 0.1699453741312027,
+  "precision": 0.37201082967519883,
+  "recall": 0.2519368403864601,
+  "f1": 0.30042017148218014,
+  "micro_precision": 0.6590257879656161,
+  "micro_recall": 0.4581673306772908,
+  "model": "yolo26s_scratch",
+  "params_M": 9.969536,
+  "train_time_min": 65.91058835188548,
+  "best_epoch": 135,
+  "inference_ms_per_image": 15.572261000233993,
+  "fps": 64.21675054026989
+}

@@ -1,0 +1,5 @@
+modelo,map50,map50_95,f1
+CNN propia,0.259,0.125,0.225
+YOLO26s desde cero,0.281,0.161,0.3
+YOLO26s transfer,0.336,0.247,0.336
+Faster R-CNN transfer,0.277,0.153,0.277

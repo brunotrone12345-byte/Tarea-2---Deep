@@ -1,0 +1,21 @@
+{
+  "tag": "frcnn_transfer_final_val",
+  "n_images": 476,
+  "n_objects": 924,
+  "n_classes_evaluated": 19,
+  "conf_threshold": 0.6500000000000001,
+  "map50": 0.3636375665664673,
+  "map50_95": 0.20603139698505402,
+  "map75": 0.22065308690071106,
+  "precision": 0.42927835345758997,
+  "recall": 0.3675207106927506,
+  "f1": 0.3960062019299243,
+  "micro_precision": 0.600253807106599,
+  "micro_recall": 0.5119047619047619,
+  "model": "frcnn_transfer_final",
+  "params_M": 41.490656,
+  "train_time_min": 291.1650725783333,
+  "best_epoch": 33,
+  "inference_ms_per_image": 62.44103599998198,
+  "fps": 16.015109038233906
+}
