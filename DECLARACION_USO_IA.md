@@ -4,7 +4,7 @@ Integrantes: **Bruno rosales, Camilo rojas, Cristofer Pérez**
 
 ## Herramienta utilizada
 
-Claude (Anthropic), en la interfaz de chat claude.ai. **[Completar: plan/versión si se conoce, y si se usó alguna otra herramienta generativa]**
+Claude (Anthropic), en la interfaz de chat claude.ai.
 
 ## Propósito para el que se empleó (descripción completa y sin omisiones)
 

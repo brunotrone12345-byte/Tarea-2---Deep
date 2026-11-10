@@ -27,6 +27,7 @@ import yaml
 from ultralytics import YOLO
 
 from detkit.metrics import coco_map, pr_at_threshold
+from detkit.paths import resolve_dataset_root
 from eval_yolo import read_gt
 
 ROOT = Path(".")
@@ -138,9 +139,10 @@ def main():
 
     cfg = yaml.safe_load(open(args.yaml, encoding="utf-8"))
     names = [cfg["names"][k] for k in sorted(cfg["names"])] if isinstance(cfg["names"], dict) else cfg["names"]
-    files = sorted((Path(cfg["path"]) / "images" / "test").glob("*.jpg"))
+    root = resolve_dataset_root(args.yaml, cfg["path"])
+    files = sorted((root / "images" / "test").glob("*.jpg"))
     imgs = [cv2.imread(str(f)) for f in files]
-    gts = [read_gt(Path(cfg["path"]) / "labels" / "test" / f"{f.stem}.txt", im.shape[1], im.shape[0])
+    gts = [read_gt(root / "labels" / "test" / f"{f.stem}.txt", im.shape[1], im.shape[0])
            for f, im in zip(files, imgs)]
     thr = json.load(open(ROOT / "results" / "eval" / f"{args.name}_val_threshold.json"))["thr"]
     model = YOLO(ROOT / "runs" / "yolo" / args.name / "weights" / "best.pt")

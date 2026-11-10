@@ -11,7 +11,7 @@
 ├── data/fjord/                 # Dataset FjordFish en formato YOLO (2.075 train / 476 val / 451 test)
 │   └── data.yaml               # Configuración portable de rutas relativas y 28 clases nominales
 ├── src/
-│   ├── detkit/                 # Utilidades comunes: métricas COCO, reportes y resolución portable de rutas
+│   ├── detkit/                 # Utilidades comunes: métricas COCO, reportes y resolución portable de rutas para evaluación
 │   ├── cnndet/                 # Detector CNN propio anchor-free tipo CenterNet (CenterDet, 13.13M params)
 │   ├── frcnn/                  # Configuración Faster R-CNN ResNet-50 FPN con anclas adaptadas (16..256)
 │   ├── explore_dataset.py      # Etapa 1: análisis exploratorio del dataset
@@ -56,7 +56,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Todos los scripts resuelven automáticamente `data/fjord/data.yaml` de manera relativa a la raíz del repositorio (`src/detkit/paths.py`), por lo que funcionan sin modificaciones en Windows, Linux, macOS y Google Colab.
+Los evaluadores `src/frcnn/lib.py` y `src/robustness_eval.py` resuelven `data/fjord/data.yaml` de forma portable mediante `src/detkit/paths.py`, por lo que funcionan sin ajustar rutas absolutas entre Windows, Linux, macOS y Google Colab.
 
 ---
 
