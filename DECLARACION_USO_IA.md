@@ -4,7 +4,7 @@ Integrantes: **Bruno rosales, Camilo rojas, Cristofer Pérez**
 
 ## Herramienta utilizada
 
-Claude (Anthropic), en la interfaz de chat claude.ai.
+Claude (Anthropic), en la interfaz de chat claude.ai, y GitHub Copilot.
 
 ## Propósito para el que se empleó (descripción completa y sin omisiones)
 
