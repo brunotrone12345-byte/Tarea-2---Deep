@@ -97,7 +97,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--device", default="cuda", choices=["cuda", "cpu"])
     ap.add_argument("--n", type=int, default=150, help="imágenes cronometradas")
-    ap.add_argument("--warmup", type=int, default=20)
+    ap.add_argument("--warmup-passes", type=int, default=1, help="pasadas completas sin cronometrar")
     ap.add_argument("--imgsz", type=int, default=640, help="tamaño de entrada de YOLO")
     ap.add_argument("--amp-cnn", type=int, default=0, help="1 = bf16 en la CNN (en la evaluación se usó bf16)")
     ap.add_argument("--data", default="data/fjord")
@@ -107,9 +107,9 @@ def main():
         print("Midiendo en CPU.")
 
     files = sorted((ROOT / args.data / "images" / "test").glob("*.jpg"))
-    files = [files[i] for i in np.linspace(0, len(files) - 1, min(args.n + args.warmup, len(files))).astype(int)]
+    files = [files[i] for i in np.linspace(0, len(files) - 1, min(args.n, len(files))).astype(int)]
     imgs = [cv2.imread(str(f)) for f in files]
-    print(f"{len(imgs)} imágenes de test en RAM ({args.warmup} de calentamiento)")
+    print(f"{len(imgs)} imágenes de test en RAM ({args.warmup_passes} pasada(s) de calentamiento + 1 cronometrada)")
 
     rows = []
     for sp in SPECS:
@@ -124,22 +124,32 @@ def main():
         if dev == "cuda":
             torch.cuda.empty_cache()
             torch.cuda.reset_peak_memory_stats()
+        for _ in range(args.warmup_passes):          # calentamiento: asignaciones de memoria, kernels, caches
+            for im in imgs:
+                infer(im)
+        if dev == "cuda":
+            torch.cuda.synchronize()
+            torch.cuda.reset_peak_memory_stats()
         ts = []
-        for i, im in enumerate(imgs):
+        for im in imgs:
             if dev == "cuda":
                 torch.cuda.synchronize()
             t0 = time.perf_counter()
             infer(im)
             if dev == "cuda":
                 torch.cuda.synchronize()
-            if i >= args.warmup:
-                ts.append((time.perf_counter() - t0) * 1000)
+            ts.append((time.perf_counter() - t0) * 1000)
         ts = np.array(ts)
-        rows.append(dict(modelo=sp["label"], ms_media=ts.mean(), ms_mediana=np.median(ts), ms_p95=np.percentile(ts, 95),
-                         ms_std=ts.std(), fps=1000 / ts.mean(), params_M=n_params / 1e6,
+        k = max(int(0.05 * len(ts)), 1)
+        trimmed = np.sort(ts)[k:-k].mean()          # media sin el 5% más lento y el 5% más rápido
+        med = float(np.median(ts))
+        rows.append(dict(modelo=sp["label"], ms_mediana=med, ms_media_recortada=trimmed, ms_media=ts.mean(),
+                         ms_p95=np.percentile(ts, 95), ms_max=ts.max(), ms_std=ts.std(),
+                         n_atipicos=int((ts > 3 * med).sum()), fps_mediana=1000 / med, params_M=n_params / 1e6,
                          mem_pico_MB=torch.cuda.max_memory_allocated() / 1e6 if dev == "cuda" else np.nan, n=len(ts)))
         r = rows[-1]
-        print(f"  {r['ms_media']:.1f} ms de media (mediana {r['ms_mediana']:.1f}, p95 {r['ms_p95']:.1f}) -> {r['fps']:.0f} FPS")
+        print(f"  mediana {r['ms_mediana']:.1f} ms ({r['fps_mediana']:.0f} FPS) | media recortada {r['ms_media_recortada']:.1f} | "
+              f"p95 {r['ms_p95']:.1f} | máx {r['ms_max']:.1f} | atípicos (>3x mediana): {r['n_atipicos']}")
         del model, infer
         if dev == "cuda":
             torch.cuda.empty_cache()
@@ -162,9 +172,9 @@ def main():
         colors = ["#7f7f7f", "#1f77b4", "#2ca02c", "#d62728"]
         for ax, c in zip(axs, ["mAP@0.5 test", "mAP@0.5:0.95 test"]):
             for (_, r), col in zip(m.iterrows(), colors):
-                ax.scatter(r["ms_media"], r[c], s=60 + r["params_M"] * 14, color=col, alpha=.8)
-                ax.annotate(r["modelo"], (r["ms_media"], r[c]), textcoords="offset points", xytext=(8, 6), fontsize=8)
-            ax.set_xlabel(f"tiempo de inferencia por imagen (ms, {tag.upper()}, batch 1)")
+                ax.scatter(r["ms_mediana"], r[c], s=60 + r["params_M"] * 14, color=col, alpha=.8)
+                ax.annotate(r["modelo"], (r["ms_mediana"], r[c]), textcoords="offset points", xytext=(8, 6), fontsize=8)
+            ax.set_xlabel(f"tiempo de inferencia por imagen (mediana, ms, {tag.upper()}, batch 1)")
             ax.set_ylabel(c)
             ax.margins(x=0.3, y=0.15)
             ax.grid(alpha=.3)
