@@ -1,0 +1,30 @@
+{
+  "name": "yolo26s_tl_full",
+  "mode": "transfer",
+  "model": "yolo26s",
+  "params": 9969536,
+  "epochs_requested": 50,
+  "epochs_run": 50,
+  "best_epoch": 37,
+  "best_fitness": 0.394681,
+  "val_map50_at_best": 0.52195,
+  "val_map50_95_at_best": 0.38054,
+  "total_time_min": 22.61516656478246,
+  "train_time_min": 22.273333333333333,
+  "args": {
+    "mode": "transfer",
+    "model": "yolo26s",
+    "name": "yolo26s_tl_full",
+    "yaml": "data/fjord/data.yaml",
+    "epochs": 50,
+    "batch": 16,
+    "imgsz": 640,
+    "workers": 2,
+    "freeze": 0,
+    "patience": 100,
+    "seed": 0,
+    "plots": 1,
+    "device": null
+  },
+  "save_dir": "C:\\Users\\bruno\\Documents\\Code\\Tarea 2 - Deep\\runs\\yolo\\yolo26s_tl_full"
+}

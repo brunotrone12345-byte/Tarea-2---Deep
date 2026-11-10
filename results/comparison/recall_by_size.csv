@@ -1,0 +1,21 @@
+modelo,tamano_px,n_objetos,recall_deteccion,recall_clase_correcta,umbral
+CNN propia,<16,113,0.274,0.23,0.3
+CNN propia,16-32,271,0.55,0.461,0.3
+CNN propia,32-64,228,0.535,0.443,0.3
+CNN propia,64-128,208,0.678,0.601,0.3
+CNN propia,>=128,184,0.457,0.446,0.3
+YOLO26s desde cero,<16,113,0.168,0.133,0.3
+YOLO26s desde cero,16-32,271,0.395,0.31,0.3
+YOLO26s desde cero,32-64,228,0.535,0.425,0.3
+YOLO26s desde cero,64-128,208,0.736,0.644,0.3
+YOLO26s desde cero,>=128,184,0.777,0.723,0.3
+YOLO26s transfer,<16,113,0.336,0.248,0.3
+YOLO26s transfer,16-32,271,0.598,0.528,0.3
+YOLO26s transfer,32-64,228,0.741,0.614,0.3
+YOLO26s transfer,64-128,208,0.856,0.779,0.3
+YOLO26s transfer,>=128,184,0.859,0.815,0.3
+Faster R-CNN transfer,<16,113,0.265,0.159,0.35
+Faster R-CNN transfer,16-32,271,0.572,0.435,0.35
+Faster R-CNN transfer,32-64,228,0.732,0.575,0.35
+Faster R-CNN transfer,64-128,208,0.88,0.769,0.35
+Faster R-CNN transfer,>=128,184,0.946,0.864,0.35

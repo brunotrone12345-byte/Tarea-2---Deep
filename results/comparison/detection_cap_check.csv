@@ -1,0 +1,5 @@
+modelo,mAP@0.5 (tope 100),mAP@0.5:0.95 (tope 100),mAP@0.5 (tope 300),mAP@0.5:0.95 (tope 300),torchmetrics mAP@0.5,torchmetrics mAP@0.5:0.95
+CNN propia,0.2583,0.1244,0.2583,0.1244,0.2583,0.1244
+YOLO26s desde cero,0.2843,0.1645,0.2844,0.1646,0.2843,0.1645
+YOLO26s transfer,0.4038,0.307,0.4039,0.3071,0.4037,0.3069
+Faster R-CNN transfer,0.3729,0.2279,0.3729,0.2279,0.3729,0.2279
