@@ -124,7 +124,7 @@ Salidas principales en `results/comparison/` y `figures/comparison/`:
 
 ### Etapa 7 — Robustez ante degradación submarina (en local o Google Colab GPU)
 
-Evalúa sin reentrenamiento las `451` imágenes de `test` en memoria bajo **4 familias de degradación × 3 niveles de severidad** (`baja iluminación`, `desenfoque gaussiano`, `ruido gaussiano` y `bajo contraste / turbidez`), manteniendo fijo el umbral óptimo de `val`:
+Evalúa sin reentrenamiento las `451` imágenes de `test` en memoria bajo **5 familias de degradación × 3 niveles de severidad** (`baja iluminación`, `bajo contraste`, `desenfoque gaussiano`, `ruido gaussiano` y `neblina / turbidez`), manteniendo fijo el umbral óptimo de `val`:
 
 ```bash
 python src/eval_degradation.py \
