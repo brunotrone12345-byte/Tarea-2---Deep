@@ -23,8 +23,8 @@
 │   ├── train_frcnn.py / eval_frcnn.py   # Etapa 5: Faster R-CNN con Transfer Learning
 │   ├── benchmark_speed.py      # Etapa 6: benchmark uniforme de inferencia (batch=1, fp32)
 │   ├── compare_models.py       # Etapa 6: comparación base de métricas y curvas
-│   ├── analyze_stage6_extra.py # Etapa 6: tabla unificada, IC 95% Bootstrap, tamaño de objeto y taxonomía de errores
-│   └── eval_degradation.py     # Etapa 7: evaluación sistemática bajo 4 tipos de degradación × 3 niveles
+│   ├── analyze_results.py      # Etapa 6: recall por tamaño e intervalos de confianza
+│   └── robustness_eval.py      # Etapa 7: evaluación bajo degradaciones
 ├── notebooks/
 │   └── Etapa7_Colab_YOLO26s_TL_y_Degradacion.ipynb  # Cuaderno reproducible en GPU (Google Colab)
 ├── results/
