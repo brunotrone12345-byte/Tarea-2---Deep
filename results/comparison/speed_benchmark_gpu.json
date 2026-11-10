@@ -1,9 +1,0 @@
-{
-  "device": "cuda",
-  "gpu": "NVIDIA GeForce RTX 5060",
-  "torch": "2.11.0+cu128",
-  "precision": "fp32",
-  "batch": 1,
-  "images": 150,
-  "protocol": "imagen BGR en RAM -> cajas finales en CPU, con NMS"
-}

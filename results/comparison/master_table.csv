@@ -1,5 +1,0 @@
-modelo,tipo,mAP@0.5 test,mAP@0.5:0.95 test,mAP@0.75 test,precision test,recall test,F1 test,mAP@0.5 test (clases con n>=20),mAP@0.5:0.95 test (clases con n>=20),mAP@0.5 val,mAP@0.5:0.95 val,fitness val,params (M),epocas,mejor epoca,tiempo total (min),ms/imagen (provisional)
-CNN propia,desde cero,0.2583,0.1244,0.0994,0.2673,0.201,0.2295,0.4163,0.2005,0.3289,0.1471,0.1653,13.1318,100,95,55.5158,8.9234
-YOLO26s desde cero,desde cero,0.2843,0.1645,0.1726,0.3645,0.2542,0.2995,0.4523,0.2743,0.3285,0.1894,0.2033,9.9695,150,135,65.9106,14.8127
-YOLO26s transfer,transfer,0.4039,0.3071,0.3348,0.4248,0.3738,0.3977,0.6097,0.4683,0.4977,0.3622,0.3758,9.9695,50,37,22.6152,16.0717
-Faster R-CNN transfer,transfer,0.3729,0.2279,0.2646,0.3449,0.3723,0.3581,0.5159,0.3245,0.4076,0.2524,0.2679,41.4375,20,20,33.7742,27.8327

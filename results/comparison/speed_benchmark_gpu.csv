@@ -1,5 +1,0 @@
-modelo,ms_mediana,ms_media_recortada,ms_media,ms_p95,ms_max,ms_std,n_atipicos,fps_mediana,params_M,mem_pico_MB,n
-CNN propia,9.69,9.78,9.86,11.42,14.01,0.83,0,103.24,13.13,119.91,150
-YOLO26s desde cero,10.81,11.66,11.87,16.66,19.8,2.55,0,92.52,9.97,123.51,150
-YOLO26s transfer,10.42,11.11,11.31,15.67,20.69,2.22,0,95.98,9.97,161.92,150
-Faster R-CNN transfer,27.68,27.96,28.2,35.69,39.0,3.43,0,36.13,41.44,463.3,150
